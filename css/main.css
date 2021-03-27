@@ -294,7 +294,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   body {
-    width: 1200px;
+    width: 100vw;
   }
 }
 
@@ -314,6 +314,7 @@ address {
 
 .header {
   background-color: #FFFFFF;
+  border: 1px solid #ECECEC;
 }
 
 .header__container {
@@ -330,8 +331,9 @@ address {
 
 @media screen and (min-width: 1200px) {
   .header__container {
-    margin-left: auto;
+    width: 1200px;
     margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -556,7 +558,6 @@ address {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -566,13 +567,6 @@ address {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
-}
-
-@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/desctop-hero-image2x.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/desctop-hero-image2x.jpg");
   }
 }
 
@@ -673,12 +667,15 @@ address {
 
 @media screen and (min-width: 1200px) {
   .advantages-container {
+    width: 1200px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -815,10 +812,11 @@ address {
 
 @media screen and (min-width: 1200px) {
   .team-container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -1027,10 +1025,11 @@ address {
 
 @media screen and (min-width: 1200px) {
   .clients-container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -1166,6 +1165,9 @@ address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -1736,10 +1738,11 @@ address {
 
 @media screen and (min-width: 1200px) {
   .portfolio-container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -2321,6 +2324,7 @@ address {
 }
 
 .services-container {
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
